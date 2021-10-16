@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/webreaper/damselfly/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://github.com/Webreaper/Damselfly/issues</Support>
+  <Support>https://forums.unraid.net/topic/114900-support-for-poke0s-xml-templates/</Support>
   <Project>https://github.com/Webreaper/Damselfly</Project>
   <Overview>Damselfly is a server-based Digital Asset Management system.  The goal of Damselfly is to index an extremely large collection of images, and allow easy search and retrieval of those images, using metadata such as the IPTC keyword tags, as well as the folder and file names.  See https://damselfly.info for more details.</Overview>
   <Category>MediaApp:Photos</Category>
