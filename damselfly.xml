@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>damselfly</Name>
+  <Repository>webreaper/damselfly</Repository>
+  <Registry>https://hub.docker.com/r/webreaper/damselfly/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Webreaper/Damselfly/issues</Support>
+  <Project>https://github.com/Webreaper/Damselfly</Project>
+  <Overview>Damselfly is a server-based Digital Asset Management system.  The goal of Damselfly is to index an extremely large collection of images, and allow easy search and retrieval of those images, using metadata such as the IPTC keyword tags, as well as the folder and file names.  See https://damselfly.info for more details.</Overview>
+  <Category>MediaApp:Photos</Category>
+  <WebUI>http://[IP]:[PORT:6363]</WebUI>
+  <Icon>https://avatars.githubusercontent.com/u/4901102</Icon>
+  <DonateText>Damselfly is free and open-source, but if you like it and fancy buying me a slice of pizza, that would be great!</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/damselfly</DonateLink>
+  <Description>Damselfly is a server-based Digital Asset Management system.  The goal of Damselfly is to index an extremely large collection of images, and allow easy search and retrieval of those images, using metadata such as the IPTC keyword tags, as well as the folder and file names.  See https://damselfly.info for more details.</Description>
+  <Config Name="Damselfly config" Target="/config" Default="" Mode="rw" Description="Container Path: /config&#13;&#10;&#13;&#10;Standard location for docker configs." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/damselfly/</Config>
+  <Config Name="Pictures" Target="/pictures" Default="" Mode="rw" Description="Container Path: /pictures&#13;&#10;&#13;&#10;Location of your pictures." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Thumbs" Target="/thumbs" Default="" Mode="rw" Description="Container Path: /thumbs&#13;&#10;&#13;&#10;Location for Damselfly to store thumbs of your pictures." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Damselfly port" Target="6363" Default="6363" Mode="tcp" Description="Container port: 6363" Type="Port" Display="always" Required="true" Mask="false"/>
+</Container>
