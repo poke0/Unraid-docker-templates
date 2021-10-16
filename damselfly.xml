@@ -10,7 +10,7 @@
   <Overview>Damselfly is a server-based Digital Asset Management system.  The goal of Damselfly is to index an extremely large collection of images, and allow easy search and retrieval of those images, using metadata such as the IPTC keyword tags, as well as the folder and file names.  See https://damselfly.info for more details.</Overview>
   <Category>MediaApp:Photos</Category>
   <WebUI>http://[IP]:[PORT:6363]</WebUI>
-  <Icon>https://avatars.githubusercontent.com/u/4901102</Icon>
+  <Icon>https://github.com/poke0/Unraid-template-icons/blob/main/damselfly-icon.png</Icon>
   <DonateText>Damselfly is free and open-source, but if you like it and fancy buying me a slice of pizza, that would be great!</DonateText>
   <DonateLink>https://www.buymeacoffee.com/damselfly</DonateLink>
   <Description>Damselfly is a server-based Digital Asset Management system.  The goal of Damselfly is to index an extremely large collection of images, and allow easy search and retrieval of those images, using metadata such as the IPTC keyword tags, as well as the folder and file names.  See https://damselfly.info for more details.</Description>
